@@ -1,0 +1,8 @@
+{
+  "name": "mktevent",
+  "description": "This application will help the Marketing team to start the collaboration on the events where Flex will have a participation.",
+  "defaultLayout": "phone-portrait",
+  "previewToken": "188b318a",
+  "uiCommonVersion": "5.1.2",
+  "creatorId": "gdlrquin"
+}
