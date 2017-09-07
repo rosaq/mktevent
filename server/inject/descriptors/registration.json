@@ -6,6 +6,11 @@
       "type": "boolean",
       "selector": "#Participation_x0020_Level_x0020__f55d17af-8597-49ea-ae37-b07becae7dfd_MultiChoiceOption_1",
       "control": "checkbox"
+    },
+    "isRegistration": {
+      "type": "identifier",
+      "selector": "input",
+      "control": "checkbox"
     }
   },
   "connect": []
