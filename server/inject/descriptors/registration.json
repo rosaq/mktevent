@@ -10,7 +10,7 @@
     "isRegistration": {
       "type": "identifier",
       "selector": "a",
-      "control": "checkbox",
+      "control": "exists",
       "selectContains": "Events and Conferences"
     }
   },
