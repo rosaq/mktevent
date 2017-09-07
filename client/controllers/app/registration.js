@@ -4,9 +4,9 @@ function app_registration($scope, app) {
     app.init($scope);
     
     //Send base64 string to server
-    $scope.speakingChange = function () {
+   /* $scope.speakingChange = function () {
         alert("Hi speakear");
         
         
-    }
+    }*/
 }
