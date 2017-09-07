@@ -51,12 +51,13 @@
                 <div class="col" data-comp-id="column.5">
                     <ion-checkbox data-comp-id="checkbox.1">Exhibiting</ion-checkbox>
                     <ion-checkbox data-comp-id="checkbox.2">Sponsoring</ion-checkbox>
-                    <ion-checkbox data-comp-id="checkbox.3" ng-click="speakingChange()">Speaking</ion-checkbox>
+                    <ion-checkbox data-comp-id="checkbox.3" ng-click="speakingChange()"
+                        ng-model="data.speaking">Speaking</ion-checkbox>
                 </div>
             </div>
             <div class="row" data-comp-id="row.7">
                 <div class="col" data-comp-id="column.6">
-                    <label class="item item-input" data-comp-id="textInput.3">
+                    <label class="item item-input" data-comp-id="textInput.3" ng-if="data.speaking">
                         <span class="input-label">First Name</span>
                         <input type="text">
                     </label>
