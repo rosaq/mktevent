@@ -1,1 +1,11 @@
-{}
+{
+  "registration": {
+    "type": "object",
+    "comment": "registration",
+    "properties": {
+      "speaking": {
+        "type": "boolean"
+      }
+    }
+  }
+}
