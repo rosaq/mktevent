@@ -25,7 +25,8 @@
       "id": "registration",
       "name": "registration",
       "sourceScreenId": "app.blank",
-      "sourceAppId": "_blank"
+      "sourceAppId": "_blank",
+      "model": "registration"
     }
   ],
   "sourceAppId": "_blank",

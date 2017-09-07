@@ -1,0 +1,17 @@
+{
+  "remoteAppConfig": {
+    "loginType": "process",
+    "cmd": "node",
+    "args": [
+      "<%= transformAppsDir %>/mktevent/server/start.js",
+      "--sessionID",
+      ":sessionID"
+    ]
+  },
+  "appData": {
+    "appType": "local",
+    "appZip": "<%= staticStorage %>mktevent/client.zip",
+    "sessionCheck": false,
+    "smartuxApp": "<%= staticStorage %>mktevent/smartuxApp.json"
+  }
+}

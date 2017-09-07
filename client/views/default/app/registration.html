@@ -51,9 +51,11 @@
                 <div class="col" data-comp-id="column.5">
                     <ion-checkbox data-comp-id="checkbox.1">Exhibiting</ion-checkbox>
                     <ion-checkbox data-comp-id="checkbox.2">Sponsoring</ion-checkbox>
-                    <ion-checkbox data-comp-id="checkbox.3" ng-click="speakingChange()">Speaking</ion-checkbox>
+                    <ion-checkbox data-comp-id="checkbox.3" ng-model="data.speaking">Speaking</ion-checkbox>
                 </div>
             </div>
+        </div>
+        <div data-comp-id="div.2">
             <div class="row" data-comp-id="row.7">
                 <div class="col" data-comp-id="column.6">
                     <label class="item item-input" data-comp-id="textInput.3">
@@ -64,6 +66,14 @@
                 <div class="col" data-comp-id="column.7">
                     <label class="item item-input" data-comp-id="textInput.4">
                         <span class="input-label">Last Name</span>
+                        <input type="text">
+                    </label>
+                </div>
+            </div>
+            <div class="row" data-comp-id="row.8">
+                <div class="col" data-comp-id="column.8">
+                    <label class="item item-input" data-comp-id="textInput.5">
+                        <span class="input-label">Session Topic</span>
                         <input type="text">
                     </label>
                 </div>
