@@ -6,7 +6,7 @@ function app_registration($scope, app) {
     //Send base64 string to server
     $scope.speakingChange = function () {
         alert("Hi speakear");
-        $scope("row.7").ng-hide:(false);
+        
         
     }
 }
