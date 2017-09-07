@@ -9,8 +9,9 @@
     },
     "isRegistration": {
       "type": "identifier",
-      "selector": "input",
-      "control": "checkbox"
+      "selector": "a",
+      "control": "checkbox",
+      "selectContains": "Events and Conferences"
     }
   },
   "connect": []
