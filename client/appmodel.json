@@ -5,6 +5,20 @@
     "properties": {
       "speaking": {
         "type": "boolean"
+      },
+      "eventName": {
+        "type": "string"
+      },
+      "eventStartDate": {
+        "type": "date",
+        "format": "MM/DD/YYYY"
+      },
+      "eventEndDate": {
+        "type": "date",
+        "format": "MM/DD/YYYY"
+      },
+      "eventURL": {
+        "type": "string"
       }
     }
   }
