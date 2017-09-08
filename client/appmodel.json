@@ -25,6 +25,15 @@
       },
       "sponsoring": {
         "type": "boolean"
+      },
+      "speakerFirstName": {
+        "type": "string"
+      },
+      "speakerLastName": {
+        "type": "string"
+      },
+      "speakerSessionTopic": {
+        "type": "string"
       }
     }
   }
