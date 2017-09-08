@@ -8,7 +8,9 @@
       "control": "checkbox"
     },
     "eventName": {
-      "type": "string"
+      "type": "string",
+      "selector": "#Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
+      "control": "text"
     },
     "eventStartDate": {
       "type": "date",
