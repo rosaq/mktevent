@@ -19,6 +19,12 @@
       },
       "eventURL": {
         "type": "string"
+      },
+      "exhibiting": {
+        "type": "boolean"
+      },
+      "sponsoring": {
+        "type": "boolean"
       }
     }
   }
