@@ -9,12 +9,14 @@
     },
     "eventName": {
       "type": "string",
-      "selector": "#Title_fa564e0f-0c70-4ab9-b863-0177e6ddd247_$TextField",
+      "selector": ".ms-input",
       "control": "text"
     },
     "eventStartDate": {
       "type": "date",
-      "format": "MM/DD/YYYY"
+      "format": "MM/DD/YYYY",
+      "selector": "#Event_x0020_Start_x0020_Date_b2058397-164a-4fce-b19c-5f6b526240eb_$DateTimeFieldDate",
+      "control": "text"
     },
     "eventEndDate": {
       "type": "date",
