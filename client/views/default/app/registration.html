@@ -14,7 +14,7 @@
                 <div class="col" data-comp-id="column.1">
                     <label class="item item-input" data-comp-id="textInput.1">
                         <span class="input-label required">Event Name</span>
-                        <input type="text">
+                        <input ng-model="data.eventName" type="text">
                     </label>
                 </div>
             </div>
@@ -22,7 +22,7 @@
                 <div class="col" data-comp-id="column.2">
                     <label class="item item-input" data-comp-id="textInput.2">
                         <span class="input-label required">Site URL</span>
-                        <input type="text">
+                        <input ng-model="data.eventURL" type="text">
                     </label>
                 </div>
             </div>
@@ -32,7 +32,8 @@
                         data-comp-id="dateInput.1">
                         <span class="input-label required">Start Date</span>
                         <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
-                            ng-model-options="{allowInvalid: true}" type="date">
+                            ng-model-options="{allowInvalid: true}" ng-model="data.eventStartDate"
+                            type="date">
                     </label>
                 </div>
             </div>
@@ -42,7 +43,7 @@
                         data-comp-id="dateInput.2">
                         <span class="input-label required">End Date</span>
                         <input date-format="MM/DD/YYYY" max="2100-12-12" min="1900-01-01"
-                            ng-model-options="{allowInvalid: true}" type="date">
+                            ng-model-options="{allowInvalid: true}" ng-model="data.eventEndDate" type="date">
                     </label>
                 </div>
             </div>
