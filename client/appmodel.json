@@ -34,6 +34,24 @@
       },
       "speakerSessionTopic": {
         "type": "string"
+      },
+      "speakerSessionDate": {
+        "type": "date",
+        "format": "MM/DD/YYYY"
+      },
+      "speakerSessionTime": {
+        "type": "time",
+        "format": "HH:mm"
+      },
+      "eventContact": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {}
+        }
+      },
+      "submitEvent": {
+        "type": "action"
       }
     }
   }
